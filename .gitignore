@@ -357,3 +357,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Exceção: Permite imagens na pasta específica
+!demo/*.jpeg
