@@ -1,0 +1,359 @@
+# ========================================
+# Python
+# ========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dll
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+virtualenv/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# ========================================
+# IDEs e Editores
+# ========================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+.sublime/
+
+# Vim
+*.swp
+*.swo
+*~
+.~*
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elpa
+.auto-save-list
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+*.ipynb_checkpoints
+
+# ========================================
+# Projeto específico
+# ========================================
+
+# Banco de dados vetorial (ChromaDB)
+chroma_db/
+chroma/
+*.sqlite3
+*.sqlite
+
+# Arquivos de cache do Chroma
+.chroma/
+chroma.sqlite3
+
+# Documentos processados temporariamente
+temp_*.pdf
+*.tmp
+*.temp
+
+# Logs do Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+.logs/
+*.log
+
+# Arquivos de sessão do Streamlit
+.streamlit/session_state
+
+# Modelos baixados (se tiver)
+models/
+*.bin
+*.gguf
+
+# ========================================
+# Dados e Documentos
+# ========================================
+
+# PDFs carregados (para não subir documentos sensíveis)
+uploads/
+uploads/*
+*.pdf
+!requirements.txt
+!README.md
+
+# Arquivos de texto com dados sensíveis
+*.key
+*.pem
+*.crt
+*.p12
+secrets.txt
+passwords.txt
+credentials.json
+*.pkl
+
+# ========================================
+# Sistema Operacional
+# ========================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.dll
+*.exe
+*.pdb
+*.cache
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*.dmg
+*.app
+.fseventsd
+
+# Linux
+.directory
+*.swp
+.*.swp
+*~
+.directory
+*.bak
+
+# ========================================
+# Backup e Temporários
+# ========================================
+
+*.backup
+*.bak
+*.old
+*.orig
+*.tmp
+*.temp
+*.cache
+*.log
+*.pid
+*.seed
+*.pid.lock
+.DS_Store
+*.swo
+*.swn
+
+# ========================================
+# Docker (se usar)
+# ========================================
+
+.dockerignore
+docker-compose.override.yml
+docker-compose.*.yml
+!docker-compose.yml
+Dockerfile
+.docker/
+
+# ========================================
+# CI/CD e Deploy
+# ========================================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+*.hcl
+.tfvars
+.terraformrc
+terraform.rc
+
+# ========================================
+# Arquivos grandes e dados
+# ========================================
+
+# Arquivos acima de 100MB (limite do GitHub)
+*.7z
+*.rar
+*.zip
+*.tar.gz
+*.tar
+*.bz2
+*.iso
+*.dmg
+
+# Modelos de IA (grandes)
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+*.pb
+*.tflite
+
+# Mídia
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.psd
+*.ai
+
+# ========================================
+# Segurança
+# ========================================
+
+# Arquivos com credenciais
+.secrets/
+secrets/
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.p8
+*.der
+*.csr
+*.pub
+*.gpg
+
+# ========================================
+# Outros
+# ========================================
+
+# Arquivos de debug
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+.coverage
+.coverage.*
+.cover
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
