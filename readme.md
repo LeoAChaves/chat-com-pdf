@@ -9,7 +9,7 @@ Um sistema completo de **Chat com PDFs** que roda 100% localmente, sem necessida
 
 ## ✨ Demonstração
 
-![Demo do Chat com PDFs](./images/demo.jpeg)
+![Demo do Chat com PDFs](./demo/demo.jpeg)
 
 ## 🎯 Funcionalidades
 
